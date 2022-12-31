@@ -1,0 +1,235 @@
+.app_container{
+    background-color: white;
+}
+.wrap_chitiet_share{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chitiet_chiase{
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    border-right: 2px solid #E8E8E8;
+}
+
+.chitiet_luotthich{
+    padding: 0 20px;
+}
+
+.chitiet_chiase i,
+.chitiet_luotthich i{
+    margin: 0 8px;
+    color: #3C5899;
+    font-size: 1.2rem;
+}
+
+.chitiet_chiase_lable,
+.chitiet_luotthich_lable{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #222222;
+}
+
+.chitiet_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+.chitiet_info_name{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.chitiet_info_danhgia{
+    display: flex;
+}
+
+.home_product_item_action_rating{
+    margin: 0;
+    padding-right: 16px;
+}
+
+.home_product_item_action_rating i{
+    font-size: 1rem;
+}
+
+.chitiet_info_danhgia_luot_vote,
+.chitiet_info_danhgia_luot_mua{
+    font-size: 1rem;
+    font-size: 200;
+    color: #767676;
+    padding: 0 16px;
+    border-left: 1px solid #DBDBDB;
+}
+
+.wrap_chitiet_info_gia{
+    margin-top: 16px;
+    background-color: #FAFAFA;
+    padding: 20px 16px;
+}
+
+.chitiet_info_gia{
+    display: flex;
+    align-items: center;
+}
+
+.chitiet_info_gia_old{
+    font-size: 1.2rem;
+    text-decoration: line-through;
+    color: #929292;
+    margin-right: 16px;
+}
+
+.chitiet_info_gia_current{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #EE4C2D;
+    margin-right: 16px;
+}
+
+.chitiet_info_gia_giamgia{
+    background-color: #EE4C2D;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 2px;
+}
+
+.chitiet_info_gia_flash_sale{
+    margin-top: 20px;
+    color: #555555;
+    font-size: 1.4rem;
+    display: block;
+}
+.chitiet_info_gia_camket{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.chitiet_info_gia_camket_img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.chitiet_info_gia_camket_lable{
+    margin-right: 10px;
+}
+
+.chitiet_info_vanchuyen{
+    margin-top: 20px;
+    display: flex;
+}
+
+.chitiet_info_vanchuyen_lable{
+    margin-right: 40px;
+    font-size: 1rem;
+    color: #757575;
+}
+
+.chitiet_info_vanchuyen_info_img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.chitiet_info_vanchuyen_info_lable{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.chitiet_info_soluong{
+    margin-top: 20px;
+}
+
+.chitiet_info_soluong_lable{
+    margin-right: 60px;
+    font-size: 1rem;
+    color: #757575;
+}
+
+.chitiet_info_soluong_quantity{
+    margin-right: 10px;
+}
+
+.chitiet_info_soluong_soluongcon{
+    font-size: 0.9rem;
+    color: #757575;
+}
+
+.chitiet_info_btn{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.btn-add-into-cart{
+    width: 180px;
+    height: 50px;
+    background-color: #FFEEEA;
+    color: #EE4C2D;
+    border: 1px solid #EE4C2D;
+    border-radius: 3px;
+    margin-right: 16px;
+    outline: none;
+}
+
+.btn-mua-ngay{
+    width: 180px;
+    height: 50px;
+    background-color: #EE4C2D;
+    color: white;
+    border: 1px solid #EE4C2D;
+    border-radius: 3px;
+    outline: none;
+}
+
+.btn-add-into-cart:hover{
+    background-color: rgba(255,87,34,.15);
+}
+
+.btn-mua-ngay:hover{
+    background-color:   #f05d40 ;
+}
+
+.chinhsach{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.chinhsach_img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.chinhsach_lable{
+    color: #7C7C7C;
+}
+
+.chitiet-detail-heading{
+    background-color: #fafafa;
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+.chitiet-detail_wrap{
+    margin: 20px 0;
+    font-size: 0.9rem;
+}
+
+.chitiet-detail-lable{
+    color: #999999;
+    display: inline-block;
+    width: 100px;
+    margin-right: 40px;
+}
+
+.chitiet-mota{
+    margin-bottom: 100px;
+}
+
+

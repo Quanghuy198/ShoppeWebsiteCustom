@@ -1,0 +1,166 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333333;
+    --border-color:#dbdbdb;
+    --star-gold-color: #ffce3e;
+}
+
+*{
+    box-sizing: inherit;
+    /* ke thua cua cha truoc do */
+}
+
+html{
+    font-size: 100%;
+    line-height: 16px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@keyframes growth{
+    from{
+        transform: scale(0.7);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+/* button size */
+.btn{
+    min-width: 124px;
+    height: 34px;
+    padding: 0 8px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: white;
+}
+
+
+
+.btn_disable{
+    cursor: default;
+    background-color: #c3c3c3;
+    color: #949494;
+    
+}
+
+.btn.btn--primary{
+    color: var(--white-color);
+    background-color: red;
+    line-height: 2.2rem;
+    
+}
+
+.auth-form_socials{
+    background-color: #f5f5f5;
+    padding: 16px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app_content{
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+/* selection box */
+.select_input{
+    height: 34px;
+    min-width: 200px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.select_input_lable{
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.select_input_list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    border-radius: 2px;
+    background-color: white;
+    list-style: none;
+    padding: 8px 12px;
+    z-index: 1;
+}
+
+.select_input_item_link{
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 8px 0px;
+    display: block;
+}
+
+.select_input_item_link:hover{
+    color: red;
+}
+
+.pagination{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination_item{
+    list-style: none;
+    margin-right: 22px;
+}
+
+.pagination_item_link{
+    display: block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #939393;
+    min-width: 36px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.pagination_item_link.pagination_item_active{
+    color: white ;
+    background-color: red;
+}
+
+.pagination_item_icon{
+    font-size: 1.8rem;
+}
